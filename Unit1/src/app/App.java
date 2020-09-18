@@ -2,16 +2,18 @@ package app;
 
 public class App {
     public static void main(String[] args) throws Exception {
-        System.out.println("1. Indiana Jones Trilogy");
-        System.out.println("2.Star Wars Trilogy");
-        System.out.println("3. Marvel 2008+ Trilogy");
-        System.out.println("4. Over the Hedge");
-        System.out.println("5. Red Dawn");
-        System.out.println("6. Grown Ups");
-        System.out.println("7. Will Ferrel Movies");
-        System.out.println("8. Space Balls");
-        System.out.println("9. Miracle");
-        System.out.println("10. Step Brothers");
-
-    }
-}
+     int myFavNum = 77777;
+        System.out.println(myFavNum);
+    boolean vikingsSuperbowlWin = false;
+System.out.println("Have the Vikings won a Superbowl?");
+System.out.println(vikingsSuperbowlWin);
+char firstLetterOfAlphabet = 0x41;
+System.out.println("What is the first letter of the Alphabet?");
+System.out.println(firstLetterOfAlphabet);
+byte superbowlNumber = 55;
+System.out.println("How many superbowls have been played after the 2021 season?");
+System.out.println(superbowlNumber);
+short whatMultiplication = 30000;
+System.out.println("What is 6000*5?");
+System.out.println(whatMultiplication);
+    }}
