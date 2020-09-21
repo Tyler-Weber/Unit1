@@ -2,18 +2,21 @@ package app;
 
 public class App {
     public static void main(String[] args) throws Exception {
-     int myFavNum = 77777;
-        System.out.println(myFavNum);
-    boolean vikingsSuperbowlWin = false;
-System.out.println("Have the Vikings won a Superbowl?");
-System.out.println(vikingsSuperbowlWin);
-char firstLetterOfAlphabet = 0x41;
-System.out.println("What is the first letter of the Alphabet?");
-System.out.println(firstLetterOfAlphabet);
-byte superbowlNumber = 55;
-System.out.println("How many superbowls have been played after the 2021 season?");
-System.out.println(superbowlNumber);
-short whatMultiplication = 30000;
-System.out.println("What is 6000*5?");
-System.out.println(whatMultiplication);
+String person1 = "Ovechkin";
+String person2 = "Kaprizov";
+String verb1 = "shoot";
+String verb2 = "snipe";
+String verb3 = "play";
+  String food = "chili";
+  String dayOfWeek = "Tuesday";
+  String adjective1 = "elite";
+  String adjective2 = "agile";
+  String place1 = "Russia";
+  String place2 = "Xcel Energy Center";
+  System.out.println(person1 + " is a player who likes to " + verb1 + " pucks");
+  System.out.println(person2 + " is a player who likes to " + verb2 + " pucks");
+  System.out.println("Both players like to have pregame " + food + " on a " + dayOfWeek);
+  System.out.println("They also are " + adjective1 + " and " + adjective2 + " hockey players");
+  System.out.println("These players both come from " + place1);
+  System.out.println("When these players " + verb3 + " eachother, at the " + place2 + ", the game will be spectacular to watch");
     }}
