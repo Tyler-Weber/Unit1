@@ -2,24 +2,23 @@ package app;
 
 public class App {
     public static void main(String[] args) throws Exception {
-int count = 0;
-String color = "Purple";
-boolean friday = false;
-
-while (count <= 1000) {
-    System.out.println("The count is " + count);
-    count = count + 1;  }
-
-System.out.println("Count Finished");
-
-while (color == "Purple"){
-    System.out.println("The color is " + color);
-    color = "Red";   }
-
-System.out.println("Color Finished");
-
- while (friday == false){
-    System.out.println("Is today Thursday? " + false);
-    friday = true;
-    System.out.println("Day Check Finished");  }
-}}
+for (int i = 10; i <= 20; i = i +1){
+    System.out.println("The count is " + i);
+    System.out.println("Let's keep counting.");
+}
+for (int i = 10; i <= 100; i = i +1){
+    System.out.println("The count is " + i);
+    System.out.println("Let's keep counting.");
+}
+for (int i = 1000; i <= 256000; i = i +1){
+    System.out.println("The count is " + i);
+    System.out.println("Let's keep counting.");
+}
+for (int i = 11; i <= 12; i = i +1){
+    System.out.println("The count is " + i);
+    System.out.println("Let's keep counting.");
+}
+for (int i = 10; i >= 0; i = i -1){
+    System.out.println("The count is " + i);
+    System.out.println("Let's keep counting.");
+}}}
