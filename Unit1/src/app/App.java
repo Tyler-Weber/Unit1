@@ -5,71 +5,36 @@ import java.util.Scanner;
 public class App {
     public static void main(String[] args) throws Exception {
         Scanner input = new Scanner(System.in);
-        System.out.println("Did the Twins win the series?");
-        String correctAnswer1 = "no";
-        String answer1 = input.nextLine();
+        System.out.println("Welcome to Penguin Fun Facts! Type WHOLE #s 1-5 to Learn!");
+        String factOne = "1";
+        String factTwo = "2";
+        String factThree = "3";
+        String factFour = "4";
+        String factFive = "5";
+        String number = input.nextLine();
+        if (number.equals(factOne))
+            System.out.println("Penguins are flightless birds.");
 
-        int score = 0;
+        else {System.out.println("Error");}
 
-        if (answer1.equals(correctAnswer1))
-            System.out.println("Correct!");
-        else {
-            System.out.println("Wrong");
-        }
-        if (answer1.equals(correctAnswer1))
-            score = score + 1;
-        System.out.println("Score " + score);
+        if (number.equals(factTwo))
+            System.out.println("Penguins can stay underwater for up to 20 minutes at a time.");
 
-        System.out.println("Who is the Vikings Quarterback?");
-        String correctAnswer2 = "Kirk Cousins";
-        String answer2 = input.nextLine();
+        else {System.out.println("Error");}
 
-        if (answer2.equals(correctAnswer2))
-            System.out.println("Correct");
-        else {
-            System.out.println("Wrong");
-        }
-        if (answer2.equals(correctAnswer2))
-            score = score + 1;
-        System.out.println("Score " + score);
+        if (number.equals(factThree))
+            System.out.println("Penguins don't have teeth.");
 
-    System.out.println("What is our school mascot?");
-        String correctAnswer3 = "Knight";
-        String answer3 = input.nextLine();
+        else {System.out.println("Error");}
 
-        if (answer3.equals(correctAnswer3))
-            System.out.println("Correct!");
-        else {
-            System.out.println("Wrong");
-        }
-        if (answer3.equals(correctAnswer3))
-            score = score + 1;
-        System.out.println("Score " + score);
+        if (number.equals(factFour))
+            System.out.println("Penguins can drink sea water.");
+        
+        else {System.out.println("Error");}
 
-System.out.println("When were STMA schools founded?");
-        String correctAnswer4 = "1969";
-        String answer4 = input.nextLine();
-
-        if (answer4.equals(correctAnswer4))
-            System.out.println("Correct!");
-        else {
-            System.out.println("Wrong");
-        }
-        if (answer4.equals(correctAnswer4))
-            score = score + 1;
-        System.out.println("Score " + score);
-
-System.out.println("What is the Intro to Programming teacher's last name?");
-        String correctAnswer5 = "Osowski";
-        String answer5 = input.nextLine();
-
-        if (answer5.equals(correctAnswer5))
-            System.out.println("Correct!");
-        else {
-            System.out.println("Wrong");
-        }
-        if (answer5.equals(correctAnswer5))
-            score = score + 1;
-        System.out.println("Final Score " + score +"/5");
-
-}}
+        if (number.equals(factFive))
+            System.out.println("Most Penguins live in the southern hemisphere.");
+        
+        else {System.out.println("Error");}
+    }
+}
