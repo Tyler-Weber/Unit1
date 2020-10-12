@@ -5,33 +5,24 @@ import java.util.Scanner;
 public class App {
     public static void main(String[] args) throws Exception {
         Scanner input = new Scanner(System.in);
-        System.out.println("Please Enter Secret Password");
-        String code = "We have the best football team in the state";
-        String password = input.nextLine();
+        int targetNumber = 7;
+        boolean isFinished = false;
 
-        if (password.equals("stmaknights")) {
-            System.out.println(code);
-        } else {
-            System.out.println("Incorrect, 2 Attempts Left");
-
+        while (isFinished == false) {
+            System.out.println("Guess a number between 0 and 100");
+            int guess = input.nextInt();
             input.nextLine();
-            if (password.equals("stmaknights")) {
-                System.out.println(code);
+            if (guess == targetNumber) {
+                System.out.println("Correct!");
+                isFinished = true;
             } else {
-                System.out.println("Incorrect, 1 Attempts Left");
-
-                input.nextLine();
-                if (password.equals("stmaknights")) {
-                    System.out.println(code);
+                if (guess > targetNumber) {
+                    System.out.println("Lower");
                 } else {
-                    System.out.println("Incorrect, 0 Attempts Left");
-
+                    System.out.println("Higher");
                 }
-
             }
-
         }
 
     }
-
 }
