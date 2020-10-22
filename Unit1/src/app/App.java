@@ -5,21 +5,13 @@ import java.util.Scanner;
 public class App {
     public static void main(String[] args) throws Exception {
         Scanner input = new Scanner(System.in);
-    System.out.println("Even Number Generator");
-    System.out.println("Please type in a number");
-    int number1 = input.nextInt();
-    System.out.println("Please enter a Higher number");
-    int number2 = input.nextInt();
-    for(int i = number1; i < number2; i++) {
-
-        if( i % 2 == 0) {
-            System.out.println(i);
+        System.out.println("Please Enter the Temperature in F");
+        int temp = input.nextInt();
+        if (temp > 32) {
+            System.out.println("The Temperature is Above Freezing");
+        } else {
+            System.out.println("The Temperature is Freezing");
         }
 
-
     }
-
-
-
-
-    }}
+}
