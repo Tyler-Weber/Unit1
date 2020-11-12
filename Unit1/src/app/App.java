@@ -1,49 +1,30 @@
 package app;
 
-import java.util.Scanner;
-
 public class App {
     public static void main(String[] args) throws Exception {
-        firstName();
-        middleName();
-        lastName();
-        isCool("Tyler");
-        tenGenerator(0);
-        add(33, 37);
-        multiply(3, 66, 252, 355);
-    }
+        int myFavNum = 77777;
+        System.out.println(myFavNum);
+        boolean vikingsSuperbowlWin = false;
+        System.out.println("The Vikings won a Superbowl");
+        System.out.println(vikingsSuperbowlWin);
+        char firstLetterOfAlphabet = 0x41;
+        System.out.println("What is the first letter of the Alphabet?");
+        System.out.println(firstLetterOfAlphabet);
+        byte superbowlNumber = 55;
+        System.out.println("How many superbowls have been played after the 2021 season?");
+        System.out.println(superbowlNumber);
+        short whatMultiplication = 30000;
+        System.out.println("What is 6000*5?");
+        System.out.println(whatMultiplication);
+        long divide = 100000;
+        System.out.println("What is 1000000/10");
+        System.out.println(divide);
+        float pointOne = 2;
+        System.out.println("What is 4/2");
+        System.out.println(pointOne);
+        double number = 1000;
+        System.out.println("What is 500*2");
+        System.out.println(number);
 
-    public static void firstName() {
-
-        System.out.println("Tyler");
-
-    }
-
-    public static void middleName() {
-        System.out.println("Daniel");
-    }
-
-    public static void lastName() {
-        System.out.println("Weber");
-    }
-
-    public static void isCool(String name) {
-        System.out.println(name + " is cool");
-    }
-
-    public static void tenGenerator(int ten) {
-        System.out.println("Greater than 10?");
-        if (ten > 10) {
-            System.out.println(ten + " is greater than 10.");
-        } else {
-            System.out.println(ten + " is less than 10.");
-        }
-    }
-    public static void add(int num1, int num2){
-        System.out.println(num1 + num2);
-
-    }
-    public static void multiply(int num1, int num2, int num3, int num4){
-        System.out.println(num1 * num2 * num3 * num4);
     }
 }
